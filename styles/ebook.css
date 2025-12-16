@@ -1,0 +1,14 @@
+body {
+  font-family: serif;
+  line-height: 1.5;
+  margin: 5%;
+}
+
+h1, h2 {
+  text-align: center;
+  page-break-before: always;
+}
+
+p {
+  text-indent: 1.5em;
+}
