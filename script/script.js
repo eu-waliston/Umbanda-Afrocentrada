@@ -1,13 +1,10 @@
-// Simulação de funcionalidade dos botões de compra
-document.getElementById('cartao-btn').addEventListener('click', function (e) {
-    e.preventDefault();
-    alert('Redirecionando para página de pagamento com cartão...\n\nEm um site real, aqui você seria redirecionado para uma plataforma de pagamento como Mercado Pago, Stripe ou PagSeguro.');
-});
+// // Simulação de funcionalidade dos botões de compra
+// document.getElementById('cartao-btn').addEventListener('click', function (e) {
 
-document.getElementById('pix-btn').addEventListener('click', function (e) {
-    e.preventDefault();
-    alert('Gerando código PIX...\n\nEm um site real, aqui seria gerado um código PIX dinâmico ou exibida uma chave PIX para pagamento.');
-});
+
+// document.getElementById('pix-btn').addEventListener('click', function (e) {
+
+// });
 
 // Efeito visual para os cards ao passar o mouse
 document.querySelectorAll('.link-card').forEach(card => {
